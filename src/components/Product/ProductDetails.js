@@ -90,7 +90,7 @@ const ProductDetails = () => {
     const all = await axios.get(`/allProducts`);
 
     // fetch the current product data using product id from all products data
-    setProd(all.data.filter((item) => item.title == title));
+    setProd(all.data.filter((item) => item.title === title));
 
     setLoading(false);
 

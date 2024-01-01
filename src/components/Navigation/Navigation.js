@@ -27,11 +27,11 @@ const Navigation = () => {
   return (
     <>
     {/* Navbar */}
-      <Navbar bg="bright" expand="lg">
+    <Navbar bg="bright" expand="lg">
         <Container fluid>
 
         {/* Brand Name */}
-          <Navbar.Brand href="/">RapidCrew</Navbar.Brand>
+          <Navbar.Brand href="/">Style Sync</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
@@ -68,7 +68,9 @@ const Navigation = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-    </>
+    
+  </>
+      
   );
 };
 
